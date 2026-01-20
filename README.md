@@ -8,7 +8,8 @@ from any authorized device **without exposing inbound services on the edge
 router**.
 
 Rather than relying on traditional VPNs or port forwarding, this design
-leverages WireGuard‑backed tunnels and identity‑aware access controls.
+leverages WireGuard‑backed tunnels coordinated through an identity‑aware
+control plane.
 
 ---
 
@@ -34,6 +35,8 @@ leverages WireGuard‑backed tunnels and identity‑aware access controls.
 
 This project focuses on **architecture, trust boundaries, and failure behavior**.
 It intentionally avoids step‑by‑step installation instructions.
+For a high-level visual overview of the system layout and trust boundaries,
+see `architecture.md`.
 
 ---
 
